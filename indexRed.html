@@ -1,0 +1,37 @@
+<!--3-Red hat boy game page HTML Part-->
+<!DOCTYPE html> <!--HTML version 5-->
+<html>
+
+<head>
+    <title>GameINT | Red Hat Boy</title> <!-- Display Page title-->
+    <link rel="stylesheet" href="styleRed.css" /> <!--Link to the CSS file-->
+    <link rel="icon" href="logo.jpeg"> <!--Link to the favicon-->
+</head>
+
+<body onkeyup="keyCheck(event);" class="body"> <!-- call for KeyCheck event function-->
+
+    <div class="background" id="background"> <!--background-->
+
+        <img src="1Run (1).png" class="player" id="player" /> <!--link to display player images-->
+
+        <div class="score" id="score">0 </div> <!--Display Score-->
+
+        <div class="endScreen" id="endScreen">
+            <div>Game Over !</div> <!--Display game over-->
+            <div>Your Score</div>
+            <div class="endScore" id="endScore">0</div> <!--display counting score-->
+
+            <button class="btn" onclick="reload();">Try Again!</button> <!--Call for reload function to a new game-->
+
+            <a href="indexGame.html" class="btn2">New Game</a> <!--link to new game button-->
+
+
+
+        </div>
+
+    </div>
+
+    <script src="scriptRed.js"></script> <!--Link to the Java Script file-->
+</body>
+
+</html>
