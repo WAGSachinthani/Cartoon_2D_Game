@@ -1,0 +1,156 @@
+/*2-characters page styles*/
+
+/*Body styles*/
+body {
+  font-family: Arial, sans-serif;
+  background-image: radial-gradient(54.97% 272.54% at 27.36% -134.72%, rgba(255, 251, 18, 0.92)0, rgba(236, 5, 5, 0.92)100%);
+  margin: 61px;
+}
+
+/*Heading styles*/
+h1 {
+  font-family: 'Your Word Art Font', cursive;
+  /* Replace 'Your Word Art Font' with your desired font */
+  font-size: 50px;
+  color: #e6ff05;
+  /* Change the color to your preference */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  /* Add a text shadow */
+
+}
+
+/*main Body styles*/
+main {
+  text-align: center;
+}
+
+/* Style for the link (character name) */
+a.select {
+  display: inline-block;
+  font-weight: bold;
+  color: #ffffff;
+  padding: 20px 50px;
+  font-size: 36px;
+  text-decoration: none;
+  /* Remove underlines from links */
+  border-radius: 30px;
+  transition: background-color 0.3s ease, transform 0.5s ease;
+  /* Slower transition */
+  font-family: 'Your Word Art Font', cursive;
+  margin-left: 30px;
+
+}
+
+a.select:hover {
+  transform: scale(1.2);
+  /* Slightly scale up on hover */
+}
+
+/*dino character box styles*/
+.field1 {
+  background-color: rgba(240, 248, 255, 0.322);
+  width: 25vw;
+  height: 65vh;
+  background-position: center;
+  border-radius: 5vh;
+  transition: 1s;
+}
+
+.field1:hover {
+  margin-top: 3vh;
+}
+
+.dino {
+  width: 500px;
+}
+
+/*Boy character box styles*/
+.field1 p {
+  color: white;
+  padding: 4vw;
+  font-size: 2.2vh;
+}
+
+.field2 {
+  background-color: rgba(240, 248, 255, 0.322);
+  width: 25vw;
+  height: 65vh;
+  background-position: center;
+  border-radius: 5vh;
+  transition: 1s;
+}
+
+.field2:hover {
+  margin-top: 3vh;
+}
+
+.boy {
+  width: 500px;
+  height: 390px;
+  margin-left: -110px;
+  margin-top: -30px;
+}
+
+/*Cat character box styles*/
+.field3 {
+  background-color: rgba(240, 248, 255, 0.322);
+  width: 25vw;
+  height: 65vh;
+  background-position: center;
+  border-radius: 5vh;
+  transition: 1s;
+}
+
+.field3:hover {
+  margin-top: 3vh;
+}
+
+.cat {
+  width: 400px;
+  height: 300px;
+  margin-left: -30px;
+}
+
+/*boxes styles*/
+.container {
+  display: flex;
+  gap: 5vh;
+  margin-left: 100px;
+}
+
+
+
+/*back to home button styles*/
+.homeButton {
+  position: fixed;
+  top: 10%;
+  /* Center vertically */
+  display: flex;
+  flex-direction: column;
+  /* Display icons vertically */
+
+  background-color: #0074d9;
+  width: 160px;
+  height: 80px;
+  border-radius: 70px;
+  margin-left: 1100px;
+  margin-top: 500px;
+}
+
+/*home button styles*/
+.homebtn {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 25px;
+  margin-left: 40px;
+  margin-top: 20px;
+  font-family: 'Your Word Art Font', cursive
+}
+
+.homeButton:hover {
+  background-color: #0056b3;
+  transform: scale(1.1);
+  /* Slightly scale up on hover */
+  transition: background-color 0.3s ease, transform 0.5s ease;
+}

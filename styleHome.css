@@ -1,0 +1,98 @@
+/*1-Home page CSS part*/
+
+/*Body styles*/
+body {
+    font-family: Arial, sans-serif;
+    background-image: radial-gradient(54.97% 272.54% at 27.36% -134.72%, rgba(255, 251, 18, 0.92)0, rgba(236, 5, 5, 0.92)100%);
+    margin: 30;
+    padding: 0;
+}
+
+/*header styles*/
+header {
+    text-align: left;
+    margin-left: 50px;
+}
+
+/*Logo image  styles*/
+img {
+    margin-top: 30px;
+    max-width: 260px;
+    height: auto;
+    border-radius: 100%;
+    transition: transform 0.3s ease;
+    /* Apply the transition */
+}
+
+img:hover {
+    transform: scale(1.1) rotate(10deg);
+    /* Scale, rotate, and change opacity on hover */
+}
+
+/*Heading styles*/
+h1 {
+    font-family: 'Your Word Art Font', cursive;
+    font-size: 76px;
+    color: #ff9900;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    margin-top: 0px;
+}
+
+/* main Body styles*/
+main {
+    text-align: center;
+}
+
+/*Discription styles*/
+p {
+    font-family: 'Your Word Art Font', cursive;
+    font-size: 30px;
+    color: #ffffff;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    /*  subtle text shadow */
+}
+
+/* Styles for the links(start and Quit buttons) */
+a.startButton {
+    display: inline-block;
+    background-color: #0074d9;
+    color: #ffffff;
+    padding: 30px 50px;
+    font-size: 36px;
+    text-decoration: none;
+    /* Remove underlines from links */
+    border-radius: 100px;
+    transition: background-color 0.3s ease, transform 0.5s ease;
+    /* Slower transition */
+    font-family: 'Your Word Art Font', cursive;
+    margin-left: 30px;
+}
+
+a.startButton:hover {
+    background-color: #0056b3;
+    transform: scale(1.2);
+    /* Slightly scale up on hover */
+}
+
+/* Social Media Icons Styles */
+.social-icons {
+    position: fixed;
+    top: 50%;
+    /* Center vertically */
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    /* Display icons vertically */
+    align-items: center;
+    /* Center horizontally */
+    width: 100px;
+}
+
+.social-icon {
+    margin-bottom: 10px;
+    /* Add spacing between icons */
+}
+
+.social-icon img {
+    width: 50px;
+}

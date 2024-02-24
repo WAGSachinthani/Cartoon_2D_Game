@@ -1,0 +1,28 @@
+/*Stsrt game button styles*/
+a.startButton {
+    display: inline-block;
+    background-color: #0074d9;
+    color: #ffffff;
+    padding: 30px 50px;
+    font-size: 36px;
+    text-decoration: none;
+    /* Remove underlines from links */
+    border-radius: 100px;
+    transition: background-color 0.3s ease, transform 0.5s ease;
+    /* Slower transition */
+    font-family: 'Your Word Art Font', cursive;
+    margin-left: 500px;
+    margin-top: 300px;
+
+}
+
+a.startButton:hover {
+    background-color: #0056b3;
+    transform: scale(1.2);
+    /* Slightly scale up on hover */
+}
+
+/*body styles*/
+body {
+    background-image: radial-gradient(54.97% 272.54% at 27.36% -134.72%, rgba(255, 251, 18, 0.92)0, rgba(236, 5, 5, 0.92)100%);
+}
