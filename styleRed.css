@@ -4,7 +4,7 @@
 .background {
     width: 100vw;
     height: 100vh;
-    background-image: url("background.png");
+    background-image: url("../assests/background.png");
     background-size: cover;
     position: absolute;
     overflow-x: hidden;
@@ -24,7 +24,7 @@
 
 /*block styles*/
 .block {
-    background-image: url("flame.gif");
+    background-image: url("../assests/flame.gif");
     background-size: cover;
     width: 90px;
     height: 150px;

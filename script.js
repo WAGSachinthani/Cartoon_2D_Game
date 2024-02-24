@@ -50,7 +50,7 @@ function run() {
     if (runImageNumber == 9) {
         runImageNumber = 1;
     }
-    player.src = "Run (" + runImageNumber + ").png";
+    player.src = "../assests/Run (" + runImageNumber + ").png";
 }
 
 //jump animation
@@ -101,7 +101,7 @@ function jump() {
             moveBlockWorkerId = setInterval(moveBlock, 100);
         }
     }
-    player.src = "Jump (" + jumpImageNumber + ").png";
+    player.src = "../assests/Jump (" + jumpImageNumber + ").png";
 
 
 }
@@ -197,7 +197,7 @@ function dead() {
         document.getElementById("endScreen").style.visibility = "visible";
         document.getElementById("endScore").innerHTML = newScore;
     }
-    player.src = "Dead (" + deadImageNumber + ").png";
+    player.src = "../assests/Dead (" + deadImageNumber + ").png";
 
 
 }
