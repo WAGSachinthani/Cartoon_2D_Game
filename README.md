@@ -9,7 +9,7 @@ The game features three unique cartoon characters in a 2D environment. Players c
 ## Features ✨
 
 - **Interactive Gameplay**: Players can control the characters using keyboard controls or touch gestures.
-- **Obstacles and Challenges**: Each level presents various obstacles and challenges, including enemies, traps, and puzzles.
+- **Obstacles and Challenges**: Each level presents various obstacles and challenges.
 - **Sound Effects and Music**: Enhance the gaming experience with immersive sound effects and background music.
 
 
